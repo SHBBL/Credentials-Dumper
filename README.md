@@ -13,9 +13,9 @@ A Tool That Display Browsers Credentials on your terminal
 | Brave |  ✅ | ✅  | ✅ | ✅
 ## Usage:
 ```
-git clone https://github.com/SHBBL/Ultimate-Stealer.git
+git clone https://github.com/SHBBL/Credentials-Dumper.git
 pip3 install -r requirements.txt
-cd Ultimate-Stealer && cd windows
+cd Credentials-Dumper && cd windows
 python Credentials_Dumper.py -h
 ```
 ### Options:
