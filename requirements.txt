@@ -1,3 +1,5 @@
 colorama
 pycryptodome
+pycryptodomex
 pywin32
+requests
